@@ -7,4 +7,3 @@ Public parts of my dotfiles
 - Jupyter basic settings
 - Vim
 - VSCode (always Insiders, put in `~/Library/Application Support/Code - Insiders/User` or `~/.config/Code - Insiders/User`)
-- [Rectangle](https://rectangleapp.com) (phasing out in favor of [Hammerspoon](https://www.hammerspoon.org))
