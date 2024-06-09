@@ -1,2 +1,2 @@
-# dot-files
+# dotfiles
 Public parts of my dotfiles
