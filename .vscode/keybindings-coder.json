@@ -1,0 +1,101 @@
+// Override key bindings by placing them into your key bindings file.
+[
+  {
+    "key": "ctrl+right",
+    "command": "cursorWordEndRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+ctrl+right",
+    "command": "cursorWordEndRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+left",
+    "command": "cursorWordEndLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+ctrl+left",
+    "command": "cursorWordEndLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "deleteWordLeft",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+delete",
+    "command": "deleteWordRight",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+  "key": "alt+shift+tab",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "shift+alt+cmd+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+cmd+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "cursorColumnSelectDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+pagedown",
+    "command": "cursorColumnSelectPageDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+pageup",
+    "command": "cursorColumnSelectPageUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "cursorColumnSelectUp",
+    "when": "textInputFocus"
+  },
+  {
+      "key": "ctrl+w",
+      "command": "workbench.action.closeActiveEditor"
+  },
+  {
+      "key": "cmd+w",
+      "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+shift+o",
+    "command": "workbench.action.files.openFileFolder",
+  },
+  {
+    "key": "cmd+x",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  }
+]

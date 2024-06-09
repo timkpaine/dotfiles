@@ -1,0 +1,151 @@
+{
+    "synthwave84.brightness": 0.5,
+    "synthwave84.disableGlow": false,
+    "workbench.tree.indent": 20,
+    "python.insidersChannel": "off",
+    "python.jediEnabled": false,
+    "python.languageServer": "Default",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "OperatorMonoLig-Book",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "500",
+    "editor.emptySelectionClipboard": true,
+    "editor.minimap.renderCharacters": false,
+    "eslint.validate": ["typescript", "typescriptreact"],
+    "cmake.configureOnOpen": false,
+    "security.workspace.trust.enabled": false,
+    "python.defaultInterpreterPath": "/usr/local/bin/python",
+    "python.pythonPath": "/usr/local/bin/python",
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook"
+    },
+    "jupyter.useNotebookEditor": false,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywords": [
+      {
+        "text": "FIXME",
+        "color": "cyan",
+        "backgroundColor": "magenta",
+        "isWholeLine": false
+      },
+      {
+        "text": "TODO",
+        "color": "magenta",
+        "backgroundColor": "cyan",
+        "isWholeLine": false
+      },
+      {
+        "text": "NOTE",
+        "color": "white",
+        "backgroundColor": "#00ff00",
+        "isWholeLine": false
+      }
+    ],
+    "todohighlight.include": [
+      "**/*.js",
+      "**/*.jsx",
+      "**/*.ts",
+      "**/*.tsx",
+      "**/*.html",
+      "**/*.php",
+      "**/*.css",
+      "**/*.scss"
+    ],
+    "todohighlight.exclude": [
+      "**/node_modules/**",
+      "**/bower_components/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.vscode/**",
+      "**/.github/**",
+      "**/_output/**",
+      "**/*.min.*",
+      "**/*.map",
+      "**/.next/**"
+    ],
+    "todohighlight.maxFilesForSearch": 5120,
+    "todohighlight.toggleURI": false,
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.quoteStyle": "'''",
+    "files.eol": "\n",
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.accessibilitySupport": "off",
+    "jupyter.widgetScriptSources": ["unpkg.com"],
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "jupyter.interactiveWindow.textEditor.executeSelection": false,
+    "svelte.enable-ts-plugin": true,
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.colorTheme": "Default High Contrast",
+    "editor.tabSize": 2,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.language.brackets": [
+      ["[", "]"],
+      ["(", ")"],
+      ["{", "}"]
+    ],
+    "editor.language.colorizedBracketPairs": [
+      ["[", "]"],
+      ["(", ")"],
+      ["{", "}"]
+    ],
+    "workbench.colorCustomizations": {
+      "editorBracketHighlight.foreground1": "#45A9F9",
+      "editorBracketHighlight.foreground2": "#B084EB",
+      "editorBracketHighlight.foreground3": "#19f9d8",
+      "editorBracketHighlight.foreground4": "#FF75B5",
+      "editorBracketHighlight.foreground5": "#E6E6E6",
+      "editorBracketHighlight.foreground6": "#FFB86C",
+      "editorBracketPairGuide.background1": "#45A9F9",
+      "editorBracketPairGuide.background2": "#B084EB",
+      "editorBracketPairGuide.background3": "#19f9d8",
+      "editorBracketPairGuide.background4": "#FF75B5",
+      "editorBracketPairGuide.background5": "#E6E6E6",
+      "editorBracketPairGuide.background6": "#FFB86C",
+      "editorBracketPairGuide.activeBackground1": "#45A9F9",
+      "editorBracketPairGuide.activeBackground2": "#B084EB",
+      "editorBracketPairGuide.activeBackground3": "#19f9d8",
+      "editorBracketPairGuide.activeBackground4": "#FF75B5",
+      "editorBracketPairGuide.activeBackground5": "#E6E6E6",
+      "editorBracketPairGuide.activeBackground6": "#FFB86C",
+      "editorIndentGuide.background1": "#45A9F9",
+      "editorIndentGuide.background2": "#B084EB",
+      "editorIndentGuide.background3": "#19f9d8",
+      "editorIndentGuide.background4": "#FF75B5",
+      "editorIndentGuide.background5": "#E6E6E6",
+      "editorIndentGuide.background6": "#FFB86C",
+      "editorIndentGuide.activeBackground1": "#45A9F9",
+      "editorIndentGuide.activeBackground2": "#B084EB",
+      "editorIndentGuide.activeBackground3": "#19f9d8",
+      "editorIndentGuide.activeBackground4": "#FF75B5",
+      "editorIndentGuide.activeBackground5": "#E6E6E6",
+      "editorIndentGuide.activeBackground6": "#FFB86C"
+    },
+    "window.zoomLevel": 2,
+    "cmake.showOptionsMovedNotification": false,
+    "files.trimTrailingWhitespace": true
+  }

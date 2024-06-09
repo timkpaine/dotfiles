@@ -1,0 +1,52 @@
+[user]
+	name = Tim Paine
+  email = 3105306+timkpaine@users.noreply.github.com
+
+[alias]
+    st = status --short --branch
+    grog = log --graph --abbrev-commit --decorate --all --format=format:\"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)\"
+    al = add -u .
+    all = add .
+    null = commit -m "."
+    wip = commit -m "wip"
+    pom = push origin main
+    pomt = push origin main --tags
+    master = checkout main
+    main = checkout main
+    pages = checkout gh-pages
+    pop = push origin gh-pages
+    squash = rebase -i main
+    mainline = branch --set-upstream-to=origin/main main
+    rank = shortlog -s -n --no-merges
+    sub = submodule update --init --recursive
+
+[core]
+	excludesfile = /Users/timkpaine/.gitignore_global
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+
+[includeIf "gitdir:~/Developer/projects/blackhat/"]
+	path = .gitconfig-ph
+
+[includeIf "gitdir:~/Developer/projects/theocean/"]
+	path = .gitconfig-theo
+
+[includeIf "gitdir:~/Developer/projects/pgc/"]
+	path = .gitconfig-pgc
+
+[includeIf "gitdir:~/Developer/projects/painebot/"]
+	path = .gitconfig-painebot
+
+[init]
+	defaultBranch = main
+
+[pull]
+	ff = only
