@@ -36,7 +36,7 @@
 [includeIf "gitdir:~/Developer/projects/blackhat/"]
 	path = .gitconfig-ph
 
-[includeIf "gitdir:~/Developer/projects/theocean/"]
+[includeIf "gitdir:~/Developer/projects/theo/"]
 	path = .gitconfig-theo
 
 [includeIf "gitdir:~/Developer/projects/pgc/"]
