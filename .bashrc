@@ -1,4 +1,14 @@
 #!/bin/bash
+
+# fix for ioctl
+[ "$PS1" ] && stty intr '^C'
+
+# fix for rsync/scp
+if [[ $- != *i* ]] ; then
+  # Shell is non-interactive
+  return
+fi
+
 # vars
 source ~/.bash/vars.sh
 

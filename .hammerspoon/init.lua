@@ -3,6 +3,7 @@ require "gridding"
 require "rectangle"
 require "hyperswitch"
 require "cpu"
+require "spotify"
 
 -- TODO
 -- https://github.com/asmagill/hammerspoon/wiki/hs.canvas.examples

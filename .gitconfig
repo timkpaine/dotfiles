@@ -7,14 +7,12 @@
     grog = log --graph --abbrev-commit --decorate --all --format=format:\"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)\"
     al = add -u .
     all = add .
+    can = commit --amend --no-edit
+    cans = commit --amend --no-edit -s
     null = commit -m "."
-    wip = commit -m "wip"
+    nulls = commit -m "." -s
     pom = push origin main
     pomt = push origin main --tags
-    master = checkout main
-    main = checkout main
-    pages = checkout gh-pages
-    pop = push origin gh-pages
     squash = rebase -i main
     mainline = branch --set-upstream-to=origin/main main
     rank = shortlog -s -n --no-merges
