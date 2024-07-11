@@ -1,6 +1,7 @@
 #!/bin/bash
 export PATH=$PATH:$HOME/Developer/miscellaneous/scripts/bin
 export PATH=$PATH:$HOME/.local/bin
+export PATH=$PATH:$HOME/.pixi/bin
 
 #!/bin/bash
 if [ "$(uname)" == "Darwin" ]; then

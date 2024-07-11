@@ -31,4 +31,3 @@ source ~/.bash/init.sh
 source ~/.bash/git.sh
 
 cd ~/Developer
-export PATH=$PATH:/Users/timkpaine/.pixi/bin
