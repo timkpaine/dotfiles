@@ -12,3 +12,4 @@ end
 hs.hotkey.bind(chords.cmd_ctrl, "m", function() sendSystemKey("MUTE") end)
 hs.hotkey.bind(chords.cmd_ctrl, "-", function() sendSystemKey("SOUND_DOWN") end)
 hs.hotkey.bind(chords.cmd_ctrl, "=", function() sendSystemKey("SOUND_UP") end)
+
