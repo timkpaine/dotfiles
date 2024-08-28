@@ -16,7 +16,7 @@
     "python.defaultInterpreterPath": "/opt/homebrew/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
     "python.pythonPath": "/usr/local/bin/python",
     "workbench.editorAssociations": {
-      "*.ipynb": "jupyter-notebook"
+      "*.ipynb": "jupyter-notebook",
     },
     "jupyter.useNotebookEditor": false,
     "[jsonc]": {
@@ -87,7 +87,9 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.accessibilitySupport": "off",
-    "jupyter.widgetScriptSources": ["unpkg.com"],
+    "jupyter.widgetScriptSources": [
+      "jsdelivr.com"
+    ],
     "[python]": {
       "editor.formatOnType": true
     },
@@ -95,7 +97,7 @@
     "svelte.enable-ts-plugin": true,
     "git.openRepositoryInParentFolders": "always",
     "workbench.colorTheme": "Default High Contrast",
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.guides.bracketPairs": true,
     "editor.guides.highlightActiveIndentation": true,
     "editor.guides.bracketPairsHorizontal": "active",
@@ -146,9 +148,17 @@
     },
     "window.zoomLevel": 2,
     "cmake.showOptionsMovedNotification": false,
-    "files.trimTrailingWhitespace": true,
     "files.associations": {
-      "*.py": "python"
+      "*.css": "css",
+      "*.less": "less",
+      "*.js": "javascript",
+      "*.jsx": "javascriptreact",
+      "*.py": "python",
+      "*.yaml": "yaml"
     },
-    "ansible.python.interpreterPath": "/opt/homebrew/Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+    "ansible.python.interpreterPath": "/opt/homebrew/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+    "cmake.pinnedCommands": [
+      "workbench.action.tasks.configureTaskRunner",
+      "workbench.action.tasks.runTask"
+    ]
   }
