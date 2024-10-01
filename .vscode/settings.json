@@ -17,6 +17,7 @@
     "python.pythonPath": "/usr/local/bin/python",
     "workbench.editorAssociations": {
       "*.ipynb": "jupyter-notebook",
+      "*.scpt": "applescript.binary"
     },
     "jupyter.useNotebookEditor": false,
     "[jsonc]": {
@@ -154,11 +155,18 @@
       "*.js": "javascript",
       "*.jsx": "javascriptreact",
       "*.py": "python",
+      "*.scpt": "applescript",
       "*.yaml": "yaml"
     },
     "ansible.python.interpreterPath": "/opt/homebrew/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
     "cmake.pinnedCommands": [
       "workbench.action.tasks.configureTaskRunner",
       "workbench.action.tasks.runTask"
-    ]
+    ],
+    "[less]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "playwright.reuseBrowser": true,
+    "makefile.configureOnOpen": false,
+    "workbench.statusBar.visible": false
   }

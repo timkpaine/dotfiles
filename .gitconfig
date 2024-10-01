@@ -17,6 +17,7 @@
     mainline = branch --set-upstream-to=origin/main main
     rank = shortlog -s -n --no-merges
     sub = submodule update --init --recursive
+    tags = tag --sort=-creatordate
 
 [core]
 	excludesfile = /Users/timkpaine/.gitignore_global

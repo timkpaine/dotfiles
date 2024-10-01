@@ -70,22 +70,39 @@ set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 
 Bundle 'kien/ctrlp.vim'
+
 Bundle 'Yggdroot/indentLine'
+
 Bundle 'davidhalter/jedi-vim'
-Bundle 'scrooloose/nerdtree'
+Bundle 'vim-scripts/indentpython.vim'
+
+Bundle 'sheerun/vim-polyglot'
+"Bundle 'mxw/vim-jsx'
+Bundle 'plasticboy/vim-markdown'
 Bundle 'nachumk/systemverilog.vim'
+
 Bundle 'godlygeek/tabular'
-Bundle 'bling/vim-airline'
-Bundle 'altercation/vim-colors-solarized'
+
+Bundle 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
+
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'Xuyuanp/nerdtree-git-plugin'
+Bundle 'tiagofumo/vim-nerdtree-syntax-highlight'
+Bundle 'PhilRunninger/nerdtree-visual-selection'
+
 Bundle 'tpope/vim-commentary'
 Bundle 'airblade/vim-gitgutter'
-Bundle 'mxw/vim-jsx'
-"Bundle 'plasticboy/vim-markdown'
+
 Bundle 'dense-analysis/ale'
 
 " Theme ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-colorscheme monokai 
 set background=light
+
+
+highlight ALEError ctermbg=DarkMagenta ctermfg=White  cterm=underline 
+highlight ALEWarning ctermbg=DarkMagenta ctermfg=White  cterm=underline
 
 match Todo /TODO/
 match Error /FIXME/
@@ -102,4 +119,10 @@ set cursorline
 
 "TODO
 "FIXME
+
+colorscheme koehler
+
+"autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+map <C-n> :NERDTreeToggle<CR>
 
