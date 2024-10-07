@@ -167,6 +167,5 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "playwright.reuseBrowser": true,
-    "makefile.configureOnOpen": false,
-    "workbench.statusBar.visible": false
+    "makefile.configureOnOpen": false
   }
