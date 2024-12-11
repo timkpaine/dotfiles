@@ -48,6 +48,9 @@ set t_vb=
 set tabstop=2
 set tm=500
 set tw=500
+let g:vim_markdown_folding_disabled = 1
+let g:markdown_folding = 0
+set nofoldenable
 set wildmenu
 set wildignore=*.o,*~,*.pyc
 set wrap "Wrap lines
@@ -78,7 +81,7 @@ Bundle 'vim-scripts/indentpython.vim'
 
 Bundle 'sheerun/vim-polyglot'
 "Bundle 'mxw/vim-jsx'
-Bundle 'plasticboy/vim-markdown'
+Bundle 'preservim/vim-markdown'
 Bundle 'nachumk/systemverilog.vim'
 
 Bundle 'godlygeek/tabular'
