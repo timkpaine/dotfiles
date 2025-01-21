@@ -97,7 +97,6 @@
     "jupyter.interactiveWindow.textEditor.executeSelection": false,
     "svelte.enable-ts-plugin": true,
     "git.openRepositoryInParentFolders": "always",
-    "workbench.colorTheme": "Default High Contrast",
     "editor.tabSize": 4,
     "editor.guides.bracketPairs": true,
     "editor.guides.highlightActiveIndentation": true,
@@ -167,5 +166,6 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "playwright.reuseBrowser": true,
-    "makefile.configureOnOpen": false
+    "makefile.configureOnOpen": false,
+    "workbench.colorTheme": "Default High Contrast",
   }

@@ -2,11 +2,12 @@
 export PATH=$HOME/Developer/miscellaneous/scripts/bin:$PATH
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.pixi/bin
+export UV_SYSTEM_PYTHON=1
 
 #!/bin/bash
 if [ "$(uname)" == "Darwin" ]; then
-  true
-
+  # export CONDA_ENVS_PATH=/Users/$(whoami)/micromamba/envs
+  export MAMBA_ROOT_PREFIX=/Users/$(whoami)/micromamba
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
 
   # Vivado
