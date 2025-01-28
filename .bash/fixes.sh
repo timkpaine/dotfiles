@@ -1,3 +1,5 @@
+export UV_SYSTEM_PYTHON=1
+
 #!/bin/bash
 if [ "$(uname)" == "Darwin" ]; then
   shopt -s checkwinsize

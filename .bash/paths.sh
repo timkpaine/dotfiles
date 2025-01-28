@@ -2,7 +2,6 @@
 export PATH=$HOME/Developer/miscellaneous/scripts/bin:$PATH
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.pixi/bin
-export UV_SYSTEM_PYTHON=1
 
 #!/bin/bash
 if [ "$(uname)" == "Darwin" ]; then
