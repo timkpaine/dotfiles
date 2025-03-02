@@ -15,3 +15,5 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   export FINN_XILINX_VERSION=2023.2
 
 fi
+
+eval "$(micromamba shell hook --shell bash)"
