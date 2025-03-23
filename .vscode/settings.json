@@ -198,4 +198,5 @@
       "yzhang",
       "ziglang"
     ],
+    "files.trimTrailingWhitespace": true,
   }
