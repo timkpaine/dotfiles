@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
-let g:netrw_dirhist_7='/Users/timkpaine/Developer/projects/point72/csp-adapter-perspective/csp_adapter_perspective'
-let g:netrw_dirhist_6='/Users/timkpaine/Developer/projects/point72/csp-adapter-perspective/csp_adapter_perspective/webserver'
-let g:netrw_dirhist_5='/Users/timkpaine/Developer/projects/point72/csp-adapter-perspective/csp_adapter_perspective'
-let g:netrw_dirhist_4='/Users/timkpaine/Developer/projects/point72/csp-adapter-perspective/csp_adapter_perspective/utils'
-let g:netrw_dirhist_3='/Users/timkpaine/Developer/projects/point72/csp-adapter-perspective/csp_adapter_perspective'
-let g:netrw_dirhist_2='/Users/timkpaine/Developer/projects/point72/csp-adapter-perspective'
-let g:netrw_dirhist_1='/Users/timkpaine/Developer/projects/1kbgz/crowdsource-frontend/src/html'

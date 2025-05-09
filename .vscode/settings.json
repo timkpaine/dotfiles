@@ -2,8 +2,6 @@
     "synthwave84.brightness": 0.5,
     "synthwave84.disableGlow": false,
     "workbench.tree.indent": 20,
-    "python.insidersChannel": "off",
-    "python.jediEnabled": false,
     "python.languageServer": "Default",
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "OperatorMonoLig-Book",
@@ -13,13 +11,11 @@
     "eslint.validate": ["typescript", "typescriptreact"],
     "cmake.configureOnOpen": false,
     "security.workspace.trust.enabled": false,
-    "python.defaultInterpreterPath": "/opt/homebrew/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
-    "python.pythonPath": "/usr/local/bin/python",
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python",
     "workbench.editorAssociations": {
       "*.ipynb": "jupyter-notebook",
       "*.scpt": "applescript.binary"
     },
-    "jupyter.useNotebookEditor": false,
     "[jsonc]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -147,7 +143,6 @@
       "editorIndentGuide.activeBackground6": "#FFB86C"
     },
     "window.zoomLevel": 2,
-    "cmake.showOptionsMovedNotification": false,
     "files.associations": {
       "*.css": "css",
       "*.less": "less",

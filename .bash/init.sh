@@ -6,8 +6,8 @@ if [ "$(uname)" == "Darwin" ]; then
   source /opt/homebrew/Cellar/lunchy/0.10.4/etc/bash_completion.d/lunchy-completion.bash
 
   # fzf
-  source /opt/homebrew/Cellar/fzf/0.57.0/shell/completion.bash
-  source /opt/homebrew/Cellar/fzf/0.57.0/shell/key-bindings.bash
+  source /opt/homebrew/Cellar/fzf/0.61.3/shell/completion.bash
+  source /opt/homebrew/Cellar/fzf/0.61.3/shell/key-bindings.bash
 
 
   # nvm
@@ -41,6 +41,14 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   gsettings set org.gnome.desktop.peripherals.keyboard delay 150
   gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 20
 
+  # fzf
+  [ -f /usr/share/doc/fzf/examples/key-bindings.bash ] && source /usr/share/doc/fzf/examples/key-bindings.bash
+  [ -f /usr/share/bash-completion/completions/fzf ] && source /usr/share/bash-completion/completions/fzf
+
+  # uv venv
+  source ~/.venvs/tkp/bin/activate
+  export VIRTUAL_ENV=~/.venvs/tkp
+  export UV_PROJECT_ENVIRONMENT=~/.venvs/tkp
 fi
 
 # rust

@@ -23,6 +23,7 @@ source ~/.bash/paths.sh
 
 # private
 source ~/.bash/private/polygon.sh
+source ~/.bash/private/xilinx.sh
 
 # init
 source ~/.bash/init.sh

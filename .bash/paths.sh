@@ -2,6 +2,7 @@
 export PATH=$HOME/Developer/miscellaneous/scripts/bin:$PATH
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.pixi/bin
+export PATH=$PATH:$HOME/.spicetify
 
 #!/bin/bash
 if [ "$(uname)" == "Darwin" ]; then
