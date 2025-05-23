@@ -11,10 +11,14 @@ if [ "$(uname)" == "Darwin" ]; then
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
 
   # Vivado
-  source /opt/Xilinx/Vivado/2024.2/settings64.sh
+  export VIVADO_VERSION=2024.2
+  if [ -f "/opt/Xilinx/Vivado/$VIVADO_VERSION/settings64.sh" ]; then
+    source /opt/Xilinx/Vivado/$VIVADO_VERSION/settings64.sh
+  fi
   export FINN_XILINX_PATH=/opt/Xilinx
-  export FINN_XILINX_VERSION=2024.2
-
+  export FINN_XILINX_VERSION=$VIVADO_VERSION
 fi
 
-eval "$(micromamba shell hook --shell bash)"
+if micromamba --version > /dev/null 2>&1; then
+  eval "$(micromamba shell hook --shell bash)"
+fi

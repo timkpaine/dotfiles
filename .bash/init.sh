@@ -9,7 +9,6 @@ if [ "$(uname)" == "Darwin" ]; then
   source /opt/homebrew/Cellar/fzf/0.61.3/shell/completion.bash
   source /opt/homebrew/Cellar/fzf/0.61.3/shell/key-bindings.bash
 
-
   # nvm
   export NVM_DIR="$HOME/.nvm"
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -29,17 +28,17 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
 
   # ubuntu-specific
   # next and previous tab keybindings
-  gsettings set org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/keybindings/ next-tab '<Primary>Tab'
-  gsettings set org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/keybindings/ prev-tab '<Primary><Shift>Tab'
+  gsettings set org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/keybindings/ next-tab '<Primary>Tab' > /dev/null 2>&1
+  gsettings set org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/keybindings/ prev-tab '<Primary><Shift>Tab' > /dev/null 2>&1
 
   # fix topbar date to include date, seconds, and weekday
-  gsettings set org.gnome.desktop.interface clock-show-date true
-  gsettings set org.gnome.desktop.interface clock-show-seconds true
-  gsettings set org.gnome.desktop.interface clock-show-weekday true
+  gsettings set org.gnome.desktop.interface clock-show-date true > /dev/null 2>&1
+  gsettings set org.gnome.desktop.interface clock-show-seconds true > /dev/null 2>&1
+  gsettings set org.gnome.desktop.interface clock-show-weekday true > /dev/null 2>&1
 
   # lower keyboard repeat and delay
-  gsettings set org.gnome.desktop.peripherals.keyboard delay 150
-  gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 20
+  gsettings set org.gnome.desktop.peripherals.keyboard delay 150 > /dev/null 2>&1
+  gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 20 > /dev/null 2>&1
 
   # fzf
   [ -f /usr/share/doc/fzf/examples/key-bindings.bash ] && source /usr/share/doc/fzf/examples/key-bindings.bash
@@ -52,5 +51,7 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
 fi
 
 # rust
-source "$HOME/.cargo/env"
+if [ -f "$HOME/.cargo/env" ]; then
+  source "$HOME/.cargo/env"
+fi
 
