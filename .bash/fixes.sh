@@ -1,7 +1,7 @@
-export UV_SYSTEM_PYTHON=1
 
 #!/bin/bash
 if [ "$(uname)" == "Darwin" ]; then
+  export UV_SYSTEM_PYTHON=1
   shopt -s checkwinsize
   force_color_prompt=yes
   export BASH_SILENCE_DEPRECATION_WARNING=1

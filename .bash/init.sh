@@ -31,6 +31,17 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   gsettings set org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/keybindings/ next-tab '<Primary>Tab' > /dev/null 2>&1
   gsettings set org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/keybindings/ prev-tab '<Primary><Shift>Tab' > /dev/null 2>&1
 
+  # remove super+num quick open
+  gsettings set org.gnome.shell.keybindings open-new-window-application-1 [] > /dev/null 2>&1
+  gsettings set org.gnome.shell.keybindings open-new-window-application-2 [] > /dev/null 2>&1
+  gsettings set org.gnome.shell.keybindings open-new-window-application-3 [] > /dev/null 2>&1
+  gsettings set org.gnome.shell.keybindings open-new-window-application-4 [] > /dev/null 2>&1
+  gsettings set org.gnome.shell.keybindings open-new-window-application-5 [] > /dev/null 2>&1
+  gsettings set org.gnome.shell.keybindings open-new-window-application-6 [] > /dev/null 2>&1
+  gsettings set org.gnome.shell.keybindings open-new-window-application-7 [] > /dev/null 2>&1
+  gsettings set org.gnome.shell.keybindings open-new-window-application-8 [] > /dev/null 2>&1
+  gsettings set org.gnome.shell.keybindings open-new-window-application-9 [] > /dev/null 2>&1
+
   # fix topbar date to include date, seconds, and weekday
   gsettings set org.gnome.desktop.interface clock-show-date true > /dev/null 2>&1
   gsettings set org.gnome.desktop.interface clock-show-seconds true > /dev/null 2>&1
