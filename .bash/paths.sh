@@ -8,6 +8,15 @@ export PATH=$PATH:$HOME/.spicetify
 if [ "$(uname)" == "Darwin" ]; then
   # export CONDA_ENVS_PATH=/Users/$(whoami)/micromamba/envs
   export MAMBA_ROOT_PREFIX=/Users/$(whoami)/micromamba
+
+  # pnpm
+  export PNPM_HOME="/Users/timkpaine/Library/pnpm"
+  case ":$PATH:" in
+    *":$PNPM_HOME:"*) ;;
+    *) export PATH="$PNPM_HOME:$PATH" ;;
+  esac
+  # pnpm end
+
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
 
   # Vivado

@@ -142,7 +142,7 @@
       "editorIndentGuide.activeBackground5": "#E6E6E6",
       "editorIndentGuide.activeBackground6": "#FFB86C"
     },
-    "window.zoomLevel": 2,
+    "window.zoomLevel": -1,
     "files.associations": {
       "*.css": "css",
       "*.less": "less",
@@ -194,4 +194,6 @@
       "ziglang"
     ],
     "files.trimTrailingWhitespace": true,
+    "github.copilot.selectedCompletionModel": "",
+    "github.copilot.nextEditSuggestions.enabled": true,
   }
