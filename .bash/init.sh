@@ -6,8 +6,8 @@ if [ "$(uname)" == "Darwin" ]; then
   source /opt/homebrew/Cellar/lunchy/0.10.4/etc/bash_completion.d/lunchy-completion.bash
 
   # fzf
-  source /opt/homebrew/Cellar/fzf/0.62.0/shell/completion.bash
-  source /opt/homebrew/Cellar/fzf/0.62.0/shell/key-bindings.bash
+  source /opt/homebrew/Cellar/fzf/0.65.1/shell/completion.bash
+  source /opt/homebrew/Cellar/fzf/0.65.1/shell/key-bindings.bash
 
   # nvm
   export NVM_DIR="$HOME/.nvm"
