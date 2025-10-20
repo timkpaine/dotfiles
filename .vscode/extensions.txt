@@ -1,4 +1,6 @@
 benspaulding.python-manifest-template
+bierner.lit-html
+bpruitt-goddard.mermaid-markdown-syntax-highlighting
 dbaeumer.vscode-eslint
 donjayamanne.python-environment-manager
 donjayamanne.python-extension-pack
@@ -17,6 +19,7 @@ ms-python.debugpy
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
+ms-python.vscode-python-envs
 ms-toolsai.jupyter
 ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers

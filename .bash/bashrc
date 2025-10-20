@@ -24,6 +24,8 @@ source ~/.bash/paths.sh
 # private
 source ~/.bash/private/polygon.sh
 source ~/.bash/private/xilinx.sh
+source ~/.bash/private/backblaze.sh
+source ~/.bash/private/logfire.sh
 
 # init
 source ~/.bash/init.sh
@@ -32,4 +34,3 @@ source ~/.bash/init.sh
 source ~/.bash/git.sh
 
 cd ~/Developer
-

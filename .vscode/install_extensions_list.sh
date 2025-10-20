@@ -1,3 +1,3 @@
 #!/bin/bash
-cat extensions.txt | xargs -L 1 echo code --install-extension
+cat extensions.txt | xargs -L 1 code --install-extension
 

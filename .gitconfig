@@ -32,6 +32,9 @@ path = .gitconfig-ph
 [includeIf "gitdir:~/Developer/projects/theo/"]
 path = .gitconfig-theo
 
+[includeIf "gitdir:~/Developer/projects/baal/"]
+path = .gitconfig-baal
+
 [includeIf "gitdir:~/Developer/projects/pgc/"]
 path = .gitconfig-pgc
 
