@@ -22,10 +22,10 @@ source ~/.bash/aliases.sh
 source ~/.bash/paths.sh
 
 # private
-source ~/.bash/private/polygon.sh
-source ~/.bash/private/xilinx.sh
 source ~/.bash/private/backblaze.sh
 source ~/.bash/private/logfire.sh
+source ~/.bash/private/massive.sh
+source ~/.bash/private/xilinx.sh
 
 # init
 source ~/.bash/init.sh
