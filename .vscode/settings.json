@@ -11,7 +11,7 @@
     "eslint.validate": ["typescript", "typescriptreact"],
     "cmake.configureOnOpen": false,
     "security.workspace.trust.enabled": false,
-    "python.defaultInterpreterPath": "/opt/homebrew/bin/python",
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.13",
     "workbench.editorAssociations": {
       "*.ipynb": "jupyter-notebook",
       "*.scpt": "applescript.binary"
