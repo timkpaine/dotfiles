@@ -2,8 +2,8 @@
 local chords = require "chords"
 
 -- Gridding
-hs.grid.GRIDHEIGHT = 4
-hs.grid.GRIDWIDTH = 8
+hs.grid.GRIDHEIGHT = 2
+hs.grid.GRIDWIDTH = 3
 hs.grid.MARGINX = 0
 hs.grid.MARGINY = 0
 hs.hotkey.bind(chords.alt_cmd_ctrl, '=', function() hs.grid.adjustwidth( 1) end)

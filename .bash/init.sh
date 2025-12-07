@@ -6,8 +6,8 @@ if [ "$(uname)" == "Darwin" ]; then
   source /opt/homebrew/Cellar/lunchy/0.10.4/etc/bash_completion.d/lunchy-completion.bash
 
   # fzf
-  source /opt/homebrew/Cellar/fzf/0.66.1/shell/completion.bash
-  source /opt/homebrew/Cellar/fzf/0.66.1/shell/key-bindings.bash
+  source /opt/homebrew/Cellar/fzf/0.67.0/shell/completion.bash
+  source /opt/homebrew/Cellar/fzf/0.67.0/shell/key-bindings.bash
 
   # nvm
   export NVM_DIR="$HOME/.nvm"
@@ -22,7 +22,7 @@ if [ "$(uname)" == "Darwin" ]; then
   # mac
   eval $(/usr/libexec/path_helper -s)
   # Set PATH, MANPATH, etc., for Homebrew.
-  eval "$(/opt/homebrew/bin/brew shellenv)"
+  eval "$(/opt/homebrew/bin/brew shellenv)" > /dev/null 2>&1
 
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
 
