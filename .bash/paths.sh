@@ -20,9 +20,9 @@ if [ "$(uname)" == "Darwin" ]; then
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
 
   # Vivado
-  export VIVADO_VERSION=2024.2
-  if [ -f "/opt/Xilinx/Vivado/$VIVADO_VERSION/settings64.sh" ]; then
-    source /opt/Xilinx/Vivado/$VIVADO_VERSION/settings64.sh
+  export VIVADO_VERSION=2025.1
+  if [ -f "/opt/Xilinx/$VIVADO_VERSION/Vivado/settings64.sh" ]; then
+    source /opt/Xilinx/$VIVADO_VERSION/Vivado/settings64.sh
   fi
   export FINN_XILINX_PATH=/opt/Xilinx
   export FINN_XILINX_VERSION=$VIVADO_VERSION
