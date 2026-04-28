@@ -1,6 +1,7 @@
 [user]
 name = Tim Paine
 email = 3105306+timkpaine@users.noreply.github.com
+	signingkey = 548BE16AABF99F6CBCC342A8DF017E32601B3192
 
 [alias]
 st = status --short --branch

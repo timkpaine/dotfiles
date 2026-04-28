@@ -3,11 +3,11 @@ if [ "$(uname)" == "Darwin" ]; then
 
   # lunchy
   source /opt/homebrew/Cellar/lunchy/0.10.4/libexec/gems/lunchy-0.10.4/extras/lunchy-completion.bash
-  source /opt/homebrew/Cellar/lunchy/0.10.4/etc/bash_completion.d/lunchy-completion.bash
+  source /opt/homebrew/Cellar/lunchy/0.10.4/etc/bash_completion.d/lunchy
 
   # fzf
-  source /opt/homebrew/Cellar/fzf/0.70.0/shell/completion.bash
-  source /opt/homebrew/Cellar/fzf/0.70.0/shell/key-bindings.bash
+  source /opt/homebrew/Cellar/fzf/0.71.0/shell/completion.bash
+  source /opt/homebrew/Cellar/fzf/0.71.0/shell/key-bindings.bash
 
   # nvm
   export NVM_DIR="$HOME/.nvm"

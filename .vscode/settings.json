@@ -214,4 +214,16 @@
       "markdown": true,
       "scminput": false
     },
+    "chat.tools.urls.autoApprove": {
+      "https://code.visualstudio.com": true,
+      "https://github.com/microsoft/vscode/wiki/*": true,
+      "https://raw.githubusercontent.com": true,
+      "https://pypi.org": true,
+      "https://github.com": true,
+      "https://dev.azure.com": true,
+      "https://api.github.com": true,
+      "https://www.hetzner.com": true,
+      "https://docs.rs": true
+    },
+    "redhat.telemetry.enabled": true
   }

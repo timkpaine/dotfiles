@@ -25,6 +25,7 @@ source ~/.bash/paths.sh
 source ~/.bash/private/backblaze.sh
 source ~/.bash/private/logfire.sh
 source ~/.bash/private/massive.sh
+source ~/.bash/private/telegram.sh
 source ~/.bash/private/xilinx.sh
 
 # init
