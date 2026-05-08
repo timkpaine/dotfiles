@@ -23,6 +23,7 @@ source ~/.bash/paths.sh
 
 # private
 source ~/.bash/private/backblaze.sh
+source ~/.bash/private/hetzner.sh
 source ~/.bash/private/logfire.sh
 source ~/.bash/private/massive.sh
 source ~/.bash/private/telegram.sh
